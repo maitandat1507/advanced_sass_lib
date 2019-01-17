@@ -1,0 +1,59 @@
+@include keyframes(topDownFadeIn) {
+    0% {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+
+    80% {
+        transform: translateY(2rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@include keyframes(bottomUpFadeIn) {
+    0% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+
+    80% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@include keyframes(moveFromLeft) {
+    0% {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@include keyframes(moveFromRight) {
+    0% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

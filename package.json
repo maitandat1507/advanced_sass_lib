@@ -1,0 +1,23 @@
+{
+  "name": "advanced_sass_lib",
+  "version": "1.0.0",
+  "description": "collection of matianda",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maitandat1507/advanced_sass_lib.git"
+  },
+  "author": "Matianda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maitandat1507/advanced_sass_lib/issues"
+  },
+  "homepage": "https://github.com/maitandat1507/advanced_sass_lib#readme"
+}
